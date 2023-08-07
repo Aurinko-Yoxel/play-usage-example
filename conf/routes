@@ -1,0 +1,7 @@
+# Routes
+
+POST     /action                           controllers.TrafficDemoController.simpleJsonAction
+
+POST     /incomingNaive                    controllers.TrafficDemoController.countIncomingTrafficNaive
+POST     /incomingBetter                    controllers.TrafficDemoController.countIncomingTrafficBetter
+POST     /incomingFinal                    controllers.TrafficDemoController.countIncomingTrafficFinal
